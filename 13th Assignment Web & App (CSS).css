@@ -1,0 +1,490 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+@font-face{
+     src: url("static/Oswald-Regular.ttf");
+     font-family: 'Oswald-Regular';
+}
+:root{
+     --primary-color: #FAB700;
+     --secondary-color: white;
+     --third-color: black;
+     --main-font: Oswald-Regular;
+}
+.Unmain-Navbar>a>svg{
+     margin-top: 1%;
+}
+.Unmain-Navbar>div{
+     margin-left: 80%;
+     margin-top: -2%;
+}
+.Unmain-Navbar>div>select{
+     padding: 3%;
+     color: gray;
+     background-color: rgb(243, 243, 243);
+     cursor: pointer;
+     border: none;
+}
+.Unmain-Navbar>div>button{
+     background-color: var(--primary-color);
+     color: var(--secondary-color);
+     cursor: pointer;
+     border: none;
+     padding: 3%;
+}
+.Unmain-Navbar>div>button:hover{
+     background-color: var(--secondary-color);
+     color: var(--primary-color);
+}
+.Main-Div>img{
+     margin-top: 4vh;
+     margin-left: 5%;
+}
+.Main-Div>ul{
+     display: flex;
+     list-style: none;
+     float: right;
+     margin-top: 3%;
+     margin-right: 20%;
+}
+.Main-Div>ul>li{
+     margin-right: 10%;
+     cursor: pointer;
+     text-transform: uppercase;
+     font-size: 12px;
+}
+.Main-Div>ul>li:hover{
+     color: var(--primary-color);
+}
+.Main-Div>ul>li:active{
+     color: var(--primary-color);
+}
+.Main-Div>ul>li>select{
+     cursor: pointer;
+     border: none;
+     text-transform: uppercase;
+     font-size: 12px;
+}
+.Main-Div>ul>li>select:hover{
+     color: var(--primary-color);
+}
+.Main-Div>ul>li>select:active{
+     color: var(--primary-color);
+}
+.Main-Div>ul>li>select>option{
+     cursor: pointer;
+}
+.Sky{
+     background-image: url(13th\ Assignment\ Web\ &\ App\ \(CSS\)\ Image\ 4.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     object-fit: cover;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     align-self: center;
+     justify-items: center;
+     padding-top: 20%;
+     padding-bottom: 20%;
+}
+.Sky-Heading{
+     font-size: 60px;
+     font-family: var(--main-font);
+     color: var(--secondary-color);
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     align-self: center;
+     justify-items: center;
+     text-transform: capitalize;
+}
+.Sky-Heading>span{
+     font-family: var(--main-font);
+     background-color: var(--primary-color);
+     color: var(--third-color);
+     border-radius: 10px;
+     padding: 1vh;
+}
+.Sky-Para{
+     color: var(--secondary-color);
+     margin-top: 2%;
+     width: 44%;
+     margin-left: 28%;
+}
+.Sky>button{
+     background-color: var(--third-color);
+     color: var(--primary-color);
+     border: none;
+     font-weight: 700;
+     margin-top: 4%;
+     padding: 22px 44px;
+     border-radius: 8px;
+     cursor: pointer;
+}
+.Sky>button:hover{
+     background-color: var(--primary-color);
+     color: var(--third-color);
+}
+.Tools-div{
+     padding-top: 5%;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     align-self: center;
+     justify-items: center;
+     justify-self: center;
+}
+.Tools-div>.Para-1{
+     font-size: 36px;
+     font-family: var(--main-font);
+}
+.Tools-div>.Para-2{
+     color: gray;
+     margin-top: 1%;
+}
+.Tools-div-sub1{
+     margin-top: 8%;
+     padding: 5%;
+     cursor: pointer;
+}
+.Tools-div-sub1:hover{
+     background-color: var(--secondary-color);
+     box-shadow: 0 0 3px var(--third-color);
+}
+.Tools-div-sub1>.P-1{
+     margin-top: 2%;
+     font-size: 20px;
+     font-family: var(--main-font);
+     font-weight: 700;
+}
+.P-2{
+     margin-top: 5%;
+}
+.Tools-div-sub{
+     display: inline-flex;
+     margin-left: 3%;
+     margin-right: 3%;
+}
+.Buildings{
+     margin-top: 9%;
+     margin-left: 5%;
+     text-align: center;
+}
+.B-Para-1{
+     font-size: 35px;
+     font-family: var(--main-font);
+     font-weight: 700;
+}
+.B-Para-2{
+     color: gray;
+     margin-top: 1%;
+}
+.Building-images-div{
+     display: flex;
+     margin-top: 5%;
+}
+.Building-images-div>img{
+     width: 421px;
+     height: 231px;
+}
+.Building-images-div2{
+     display: flex;
+}
+.Building-images-div2>img{
+     width: 421px;
+     height: 231px;
+}
+.Partners{
+     margin-top: 9%;
+     text-align: center;
+}
+.P-Para-1{
+     font-size: 36px;
+     font-family: var(--main-font);
+     font-weight: 700;
+}
+.P-Para-2{
+     margin-top: 1%;
+     color: gray;
+}
+.Partners-image{
+     margin-top: 5%;
+}
+.Partners-image>img{
+     margin-left: 3%;
+}
+.Names{
+     display: inline-block;
+     margin-left: 9%;
+}
+.Names-div{
+     margin-left: -5%;
+     margin-top: 3%;
+}
+.Names-div-Para-1{
+     font-size: 18px;
+     font-weight: 700;
+     font-family: var(--main-font);
+}
+.Names-div-Para-2{
+     color: gray;
+}
+.Numbers{
+     background-color: var(--primary-color);
+     margin-top: 10%;
+     padding-top: 5%;
+     padding-bottom: 5%;
+}
+.Numbers>div{
+     display: inline-block;
+     margin-left: 6%;
+}
+.N-P-1{
+     font-size: 48px;
+     font-family: var(--main-font);
+     font-weight: 700;
+}
+.Features{
+     margin-top: 9%;
+     text-align: center;
+}
+.Features-Para-1{
+     font-size: 35px;
+     font-weight: 700;
+     font-family: var(--main-font);
+}
+.Features-Para-2{
+     margin-top: 1%;
+     color: gray;
+}
+.ul-1{
+     margin-top: 5%;
+     display: flex;
+     list-style: none;
+     margin-left: 5%;
+     margin-right: 5%;
+}
+.ul-1>li{
+     margin-left: 1%;
+     border: 1px solid gainsboro;
+     padding: 3%;
+     text-align: left;
+     border-radius: 5px;
+}
+.ul-1>li:hover{
+     box-shadow: 0 0 3px gray;
+     background-color: white;
+}
+.ul-2>li:hover{
+     box-shadow: 0 0 3px gray;
+     background-color: white;
+}
+.ul-2>li{
+
+     padding: 3%;
+     border: 1px solid gainsboro;
+     text-align: left;
+     margin-left: 1%;
+     border-radius: 5px;
+}
+.ul-2{
+     display: flex;
+     list-style: none;
+     margin-top: 3%;
+     margin-left: 5%;
+     margin-right: 5%;
+}
+.Div-1>.Para-1{
+     font-size: 18px;
+     font-family: var(--main-font);
+     font-weight: 700;
+     display: inline-flex;
+}
+.Div-1>svg{
+     display: inline-flex;
+}.Div-2>svg{
+     display: inline-flex;
+}.Div-3>svg{
+     display: inline-flex;
+}.Div-4>svg{
+     display: inline-flex;
+}.Div-5>svg{
+     display: inline-flex;
+}.Div-6>svg{
+     display: inline-flex;
+}
+.Div-2>.Para-1{
+     font-size: 18px;
+     font-family: var(--main-font);
+     font-weight: 700;
+     display: inline-flex;
+}
+.Div-3>.Para-1{
+     font-size: 18px;
+     font-family: var(--main-font);
+     font-weight: 700;
+     display: inline-flex;
+}
+.Div-4>.Para-1{
+     font-size: 18px;
+     font-family: var(--main-font);
+     font-weight: 700;
+     display: inline-flex;
+}
+.Div-5>.Para-1{
+     font-size: 18px;
+     font-family: var(--main-font);
+     font-weight: 700;
+     display: inline-flex;
+}
+.Div-6>.Para-1{
+     font-size: 18px;
+     font-family: var(--main-font);
+     font-weight: 700;
+     display: inline-flex;
+}
+.Div-1>.Para-1:hover{
+     color: var(--primary-color);
+}
+.Div-2>.Para-1:hover{
+     color: var(--primary-color);
+}
+.Div-3>.Para-1:hover{
+     color: var(--primary-color);
+}
+.Div-4>.Para-1:hover{
+     color: var(--primary-color);
+}
+.Div-5>.Para-1:hover{
+     color: var(--primary-color);
+}
+.Div-6>.Para-1:hover{
+     color: var(--primary-color);
+}
+.Div-1>.Para-2{
+     color: gray;
+     margin-top: 4%;
+     line-height: 25px;
+}
+.Div-2>.Para-2{
+     color: gray;
+     margin-top: 4%;
+     line-height: 25px;
+}
+.Div-3>.Para-2{
+     color: gray;
+     margin-top: 4%;
+     line-height: 25px;
+}
+.Div-4>.Para-2{
+     color: gray;
+     margin-top: 4%;
+     line-height: 25px;
+}
+.Div-5>.Para-2{
+     color: gray;
+     margin-top: 4%;
+     line-height: 25px;
+}
+.Div-6>.Para-2{
+     color: gray;
+     margin-top: 4%;
+     line-height: 25px;
+}
+.Girls{
+     margin-top: 20%;
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+     margin-left: 10%;
+     margin-right: 10%;
+}
+.Girls-Li-1{
+     border: 1px solid gainsboro;
+     padding: 5%;
+}
+.Girls-Li-2{
+     border: 1px solid gainsboro;
+     padding: 5%;
+     margin-left: 5%;
+}
+.Girls>li:hover{
+     background-color: white;
+     box-shadow: 0 0 4px gray;
+}
+.Sub-Div-2{
+     margin-top: -20%;
+     margin-left: 25%;
+}
+.Sub-Div-2>.Para-1{
+     color: gray;
+}
+.Sub-Div-2>.Para-2{
+     font-size: 23px;
+     font-weight: 700;
+     font-family: var(--main-font);
+}
+.Para-2:hover{
+     color: var(--primary-color);
+}
+.Sub-Div-2>.Para-3{
+     color: gray;
+}
+footer{
+     padding: 10% 5%;
+     background-color: #222222;
+     color: gray;
+     margin-top: 10%;
+     display: inline-flex;
+}
+footer>.Div-1{
+     width: 22%;
+}
+footer>.Div-1>.Para-1{
+     color: white;
+     margin-bottom: 10%;
+     font-size: 22px;
+}
+footer>.Div-2>.Para-1{
+     color: white;
+     font-size: 22px;
+     margin-bottom: 10%;
+}
+footer>.Div-1>.Para-2{
+     line-height: 25px;
+}
+footer>.Div-2>.Para-2{
+     line-height: 25px;
+}
+footer>.Div-2{
+     width: 25%;
+     margin-left: 5%;
+}
+footer>.Div-2>a{
+     color: var(--primary-color);
+     font-size: 30px;
+     text-decoration: none;
+}
+footer>.Div-3{
+     margin-left: 10%;
+}
+footer>.Div-3>.Para-1{
+     color: white;
+     font-size: 22px;
+}
+footer>.Div-3>.Para-2{
+     margin-top: 0;
+     margin-top: 10%;
+     margin-bottom: 5%;
+}
+.Div-3>input{
+     margin-top: 4%;
+     padding: 5%;
+     border-radius: 40px;
+     width: 80%;
+}

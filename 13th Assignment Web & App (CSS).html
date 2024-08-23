@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Builder Construction Multi (13th Assignment Web & App (CSS))</title>
+     <link rel="stylesheet" href="13th Assignment Web & App (CSS).css">
+     <link rel="shortcut icon" href="13th Assignment Web & App (CSS) Image 1.png" type="image/x-icon">
+</head>
+<body>
+     <div class="Top-Icons-Div" style="padding-top: 1vh; padding-bottom: 1vh;">
+          <div class="Unmain-Navbar" style="border-bottom: 0.1px solid rgb(192, 185, 185); padding-bottom: 2vh; width: 100%; padding-left: 10vh;">
+               <a href="https://www.facebook.com/profile.php?id=61553222710778" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 2vh; height: 2vh; fill: rgb(192, 185, 185);"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a>
+               <a href="https://https://twitter.com/login" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 2vh; height: 2vh; fill: rgb(192, 185, 185); margin-left: 1%;"><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg></a>
+               <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 2vh; height: 2vh; fill: rgb(192, 185, 185); margin-left: 1%;"><path d="M256 8C119.3 8 8 119.3 8 256s111.3 248 248 248 248-111.3 248-248S392.7 8 256 8zm164 114.4c29.5 36 47.4 82 47.8 132-7-1.5-77-15.7-147.5-6.8-5.8-14-11.2-26.4-18.6-41.6 78.3-32 113.8-77.5 118.3-83.5zM396.4 97.9c-3.8 5.4-35.7 48.3-111 76.5-34.7-63.8-73.2-116.2-79-124 67.2-16.2 138 1.3 190.1 47.5zm-230.5-33.3c5.6 7.7 43.4 60.1 78.5 122.5-99.1 26.3-186.4 25.9-195.8 25.8C62.4 147.2 106.7 92.6 165.9 64.6zM44.2 256.3c0-2.2 0-4.3 .1-6.5 9.3 .2 111.9 1.5 217.7-30.1 6.1 11.9 11.9 23.9 17.2 35.9-76.6 21.6-146.2 83.5-180.5 142.3C64.8 360.4 44.2 310.7 44.2 256.3zm81.8 167.1c22.1-45.2 82.2-103.6 167.6-132.8 29.7 77.3 42 142.1 45.2 160.6-68.1 29-150 21.1-212.8-27.9zm248.4 8.5c-2.2-12.9-13.4-74.9-41.2-151 66.4-10.6 124.7 6.8 131.9 9.1-9.4 58.9-43.3 109.8-90.8 142z"/></svg></a>
+               <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width: 2vh; height: 2vh; fill: rgb(192, 185, 185); margin-left: 1%;"><path d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"/></svg></a>
+               <div>
+                    <select name="" id="">
+                         <option value="">English</option>
+                         <option value="">Bangla</option>
+                         <option value="">Indian</option>
+                         <option value="">Aus</option>
+                    </select>
+                    <button>Free Quote!</button>
+               </div>
+          </div>
+          <div class="Main-Div">
+          <img src="13th Assignment Web & App (CSS) Image 2.png" alt="">
+          <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Services</li>
+               <li>
+                    <select name="" id="">
+                         <option value="" selected disabled>Pages</option>
+                         <option value="">Projects</option>
+                         <option value="">Elements</option>
+                    </select>
+               </li>
+               <li>Blog</li>
+               <li>Contact</li>
+               <li><img src="13th Assignment Web & App (CSS) Image 3.svg" alt="" class="Search"></li>
+          </ul>
+     </div>
+     </div>
+     <div class="Sky">
+          <p class="Sky-Heading">Build your <span>dream</span></p>
+          <p class="Sky-Para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+          <button>Discover Now</button>
+     </div>
+     <div class="Tools-div">
+          <p class="Para-1">Our Offered Services</p>
+          <p class="Para-2">Lorem ipsum dolor sit amet, consecteturadipis icing elit,</p>
+          <div class="Tools-div-sub">
+               <div class="Tools-div-sub1"><img src="13th Assignment Web & App (CSS) Image 5.webp" alt=""><p class="P-1">Building drawings</p><p class="P-2">Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+               <div class="Tools-div-sub1"><img src="13th Assignment Web & App (CSS) Image 6.webp" alt=""><p class="P-1">Painting Constructions</p><p class="P-2">Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+               <div class="Tools-div-sub1"><img src="13th Assignment Web & App (CSS) Image 7.webp" alt=""><p class="P-1">Repairing Constructions</p><p class="P-2">Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+          </div>
+     </div>
+     <div class="Buildings">
+          <p class="B-Para-1">Our Latest Projects</p><p class="B-Para-2">Who are in extremely love with eco friendly system.</p>
+     <div class="Building-images-div">
+          <img src="13th Assignment Web & App (CSS) Image 8.webp" alt="">
+          <img src="13th Assignment Web & App (CSS) Image 9.webp" alt="">
+          <img src="13th Assignment Web & App (CSS) Image 10.webp" alt="">
+     </div>
+     <div class="Building-images-div2">
+          <img src="13th Assignment Web & App (CSS) Image 11.webp" alt="">
+          <img src="13th Assignment Web & App (CSS) Image 12.webp" alt="">
+          <img src="13th Assignment Web & App (CSS) Image 13.webp" alt="">
+     </div>
+     </div>
+     <div class="Partners">
+          <p class="P-Para-1">Meet Our Expert Members</p><p class="P-Para-2">Who are in extremely love with eco friendly system.</p>
+          <div class="Partners-image">
+               <img src="13th Assignment Web & App (CSS) Image 14.webp" alt="">
+               <img src="13th Assignment Web & App (CSS) Image 15.webp" alt="">
+               <img src="13th Assignment Web & App (CSS) Image 16.webp" alt="">
+               <img src="13th Assignment Web & App (CSS) Image 17.webp" alt="">
+               <div class="Names-div">
+                    <div class="Names name1"><p class="Names-div-Para-1">Ethel Davis</p><p class="Names-div-Para-2">Managing Director (Sales)</p></div>
+                    <div class="Names name2"><p class="Names-div-Para-1">Ethel Davis</p><p class="Names-div-Para-2">Managing Director (Sales)</p></div>
+                    <div class="Names name3"><p class="Names-div-Para-1">Ethel Davis</p><p class="Names-div-Para-2">Managing Director (Sales)</p></div>
+                    <div class="Names name4"><p class="Names-div-Para-1">Ethel Davis</p><p class="Names-div-Para-2">Managing Director (Sales)</p></div>
+               </div>
+               </div>
+     </div>
+     <div class="Numbers">
+          <div><p class="N-P-1">596</p><p class="N-P-2">Projects Completed</p></div>
+          <div><p class="N-P-1">552</p><p class="N-P-2">Really Happy Clients</p></div>
+          <div><p class="N-P-1">5962</p><p class="N-P-2">Total Tasks Completed</p></div>
+          <div><p class="N-P-1">1009</p><p class="N-P-2">Cups of Coffee Taken</p></div>
+          <div><p class="N-P-1">434</p><p class="N-P-2">In House Professionals</p></div>
+     </div>
+     <div class="Features">
+          <p class="Features-Para-1">Some Features that Made us Unique</p>
+          <p class="Features-Para-2">Who are in extremely love with eco friendly system.</p>
+          <ul class="ul-1">
+               <li>
+               <div class="Div-1">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+               <p class="Para-1">Expert Technicians</p><p class="Para-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p></div></li>
+               <li>
+               <div class="Div-2">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M560-440h200v-80H560v80Zm0-120h200v-80H560v80ZM200-320h320v-22q0-45-44-71.5T360-440q-72 0-116 26.5T200-342v22Zm160-160q33 0 56.5-23.5T440-560q0-33-23.5-56.5T360-640q-33 0-56.5 23.5T280-560q0 33 23.5 56.5T360-480ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z"/></svg>
+               <p class="Para-1">Professional Service</p><p class="Para-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p></div></li>
+               <li>
+               <div class="Div-3">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M680-200h80v-560h-80v560ZM280-400q17 0 28.5-11.5T320-440q0-17-11.5-28.5T280-480q-17 0-28.5 11.5T240-440q0 17 11.5 28.5T280-400Zm0 120q17 0 28.5-11.5T320-320q0-17-11.5-28.5T280-360q-17 0-28.5 11.5T240-320q0 17 11.5 28.5T280-280Zm-40-240h320v-160H240v160Zm160 120q17 0 28.5-11.5T440-440q0-17-11.5-28.5T400-480q-17 0-28.5 11.5T360-440q0 17 11.5 28.5T400-400Zm0 120q17 0 28.5-11.5T440-320q0-17-11.5-28.5T400-360q-17 0-28.5 11.5T360-320q0 17 11.5 28.5T400-280Zm120-120q17 0 28.5-11.5T560-440q0-17-11.5-28.5T520-480q-17 0-28.5 11.5T480-440q0 17 11.5 28.5T520-400Zm0 120q17 0 28.5-11.5T560-320q0-17-11.5-28.5T520-360q-17 0-28.5 11.5T480-320q0 17 11.5 28.5T520-280Zm80 40v-480H200v480h400Zm80 120q-23 0-40.5-11T611-160H200q-33 0-56.5-23.5T120-240v-480q0-33 23.5-56.5T200-800h411q11-18 28.5-29t40.5-11h80q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120h-80ZM200-240v-480 480Z"/></svg>
+               <p class="Para-1">Great Support</p><p class="Para-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p></div></li>
+          </ul>
+          <ul class="ul-2">
+               <li>
+               <div class="Div-4">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m226-559 78 33q14-28 29-54t33-52l-56-11-84 84Zm142 83 114 113q42-16 90-49t90-75q70-70 109.5-155.5T806-800q-72-5-158 34.5T492-656q-42 42-75 90t-49 90Zm178-65q-23-23-23-56.5t23-56.5q23-23 57-23t57 23q23 23 23 56.5T660-541q-23 23-57 23t-57-23Zm19 321 84-84-11-56q-26 18-52 32.5T532-299l33 79Zm313-653q19 121-23.5 235.5T708-419l20 99q4 20-2 39t-20 33L538-80l-84-197-171-171-197-84 167-168q14-14 33.5-20t39.5-2l99 20q104-104 218-147t235-24ZM157-321q35-35 85.5-35.5T328-322q35 35 34.5 85.5T327-151q-25 25-83.5 43T82-76q14-103 32-161.5t43-83.5Zm57 56q-10 10-20 36.5T180-175q27-4 53.5-13.5T270-208q12-12 13-29t-11-29q-12-12-29-11.5T214-265Z"/></svg>
+               <p class="Para-1">Technical Skills</p><p class="Para-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p></div></li>
+               <li>
+               <div class="Div-5">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-120 80-600l120-240h560l120 240-400 480Zm-95-520h190l-60-120h-70l-60 120Zm55 347v-267H218l222 267Zm80 0 222-267H520v267Zm144-347h106l-60-120H604l60 120Zm-474 0h106l60-120H250l-60 120Z"/></svg>
+               <p class="Para-1">Highly Recomended</p><p class="Para-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p></div></li>
+               <li>
+               <div class="Div-6">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+               <p class="Para-1">Positive Reviews</p><p class="Para-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p></div></li>
+          </ul>
+     </div>
+     <ul class="Girls">
+          <li class="Girls-Li-1"><div class="Main-div"><div class="Sub-Div-1"><img src="13th Assignment Web & App (CSS) Image 18.webp" alt=""></div><div class="Sub-Div-2"><p class="Para-1">Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p><p class="Para-2">Mark Alviro Wiens</p><p class="Para-3">CEO at google</p></div></div></li>
+          <li class="Girls-Li-2"><div class="Main-div-2"><div class="Sub-Div-1"><img src="13th Assignment Web & App (CSS) Image 19.webp" alt=""></div><div class="Sub-Div-2"><p class="Para-1">Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p><p class="Para-2">Mark Alviro Wiens</p><p class="Para-3">CEO at google</p></div></div></li>
+     </ul>
+     <div style="margin-top: 20%;">
+          <img src="13th Assignment Web & App (CSS) Image 20.webp" alt="" style="margin-left: 10%;">
+          <img src="13th Assignment Web & App (CSS) Image 21.webp" alt="" style="margin-left: 8%;">
+          <img src="13th Assignment Web & App (CSS) Image 22.webp" alt="" style="margin-left: 8%;">
+          <img src="13th Assignment Web & App (CSS) Image 23.webp" alt="" style="margin-left: 8%;">
+          <img src="13th Assignment Web & App (CSS) Image 24.webp" alt="" style="margin-left: 8%;">
+     </div>
+     <footer>
+          <div class="Div-1"><p class="Para-1">About Us</p><p class="Para-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p></div>
+          <div class="Div-2"><p class="Para-1">Contact Us</p><p class="Para-2">56/8, Santa Monica bullevard, Los angeles, california, United states of america</p><br><a href="tel:+01265325689746">01265325689746</a><br><a href="tel:+01265325689746">01265325689746</a></div>
+          <div class="Div-3"><p class="Para-1">Newsletter</p><p class="Para-2">You can trust us. we only send promo offers, not a single spam.</p><input type="text" placeholder="Email Address"></div>
+     </footer>
+</body>
+</html>
